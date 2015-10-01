@@ -1,0 +1,126 @@
+/*  
+Theme Name: Nature Shine
+Theme URI: http://wordpress.gl3nnx.net
+Description:  Simple theme good for personal blogs, 2 columned layout, centered on page. Good for Adsense, SEO friendly layout and Valid XHTML!
+Version: 1.3.1
+Author: Glenn Dasmarinas
+Author URI: 
+http://www.gl3nnx.netTags: green, two-columns, fixed-width
+
+*/
+
+@import "layout.css";
+@import "formatting.css";
+@import "curso.css";
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+input{
+	margin:10px 0px 0px 5px;
+	color:#006600;
+	background:#FFFFFF;
+	border:solid 1px;
+}
+#searchsubmit{
+	height:22px;
+	width:30px;
+	padding-bottom:2px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:#006600;
+}
+#searchsubmit:hover{
+	color:#FFFFFF;
+	background:#22CC22;
+	cursor:pointer;
+}
+#submit{
+	color:#FFFFFF;
+	background:#006600;
+}
+#submit:hover{
+	color:#FFFFFF;
+	background:#22CC22;
+	cursor:pointer;
+}
+#comment{
+	color:#004400;
+	background:#FFFFFF;
+	border:#229922 solid 1px;
+}
+/* AVATAR */
+
+.avatar {
+	float: right;
+	margin: 0px 5px 0px 5px;
+	padding: 2px;
+	background: #FFF;
+	border:#66DD66 solid 2px;
+}
+
+/*ENFEITES DE NATAL*/
+#cartao {
+	position: absolute;
+	text-align:center;
+	z-index: 99;
+	top: 150px;
+	left: 250px;
+	width:800px;
+	height:600px;	
+}
+
+.commentlist li{
+	margin-left:15px;
+}
+
+.commentlist li p{
+	padding:5px 0px 5px 10px;
+	border-bottom:solid 1px #00FF99;
+}
+.muda {
+	z-index:0;
+}
+#logo_gais{
+	margin-bottom:10px;
+	margin:0 0 10px 10px;
+	width:175px;
+	height:110px;
+	border: 1px solid #090;
+}
